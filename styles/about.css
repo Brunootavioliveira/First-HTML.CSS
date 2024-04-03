@@ -60,6 +60,10 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.imagem-figma {
+    width: 50%;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -74,7 +78,7 @@ footer {
     background-color: #373b3b3b;
     color: #7a7a7a;
     padding: 1.5rem 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -130,5 +134,11 @@ footer {
     }
     .apresentacao__conteudo {
         width: auto;
+    }
+    .apresentacao__titulo {
+        font-size: 2rem;
+    }
+    .paragrafo {
+        font-size: 1.5rem;
     }
 } 

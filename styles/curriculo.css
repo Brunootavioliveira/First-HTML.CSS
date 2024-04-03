@@ -78,6 +78,10 @@ body {
 
 }
 
+.imagem-figma {
+    width: 50%;
+}
+
 .blue_text {
     color:  var(--cor0);
 }
@@ -142,5 +146,11 @@ footer {
     }
     .apresentacao__conteudo {
         width: auto;
+    }
+    .text_exp {
+        font-size: 1rem;
+    }
+    .paragrafo {
+        font-size: 1rem;
     }
 } 
