@@ -152,6 +152,11 @@ footer {
         width: auto;
         padding: 15%;
     }
+
+    .apresentacao__titulo {
+        font-size: 2rem;
+    }
+    
     .text_exp {
         font-size: 1rem;
     }

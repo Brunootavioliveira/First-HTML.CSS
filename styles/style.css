@@ -166,16 +166,51 @@ footer {
     .cabecalho_menu {
         justify-content: center; 
     }
+
     .cabecalho_link {
-        font-size: 0.8rem;
-        gap: 7%;
+        font-size: 1rem;
+        gap: 10%;
     }
+
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
     }
+
+    .apresentacao__titulo {
+        font-size: 1.5rem;
+    }
+
+    .paragrafo {
+        font-size: 1.5rem;
+    }
+
     .apresentacao__conteudo {
         width: auto;
         padding: 5%;
+    }
+
+    .apresentacao__links {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    .redes_sociais {
+        /*background-color: #22D4FD;*/
+        display: flex;
+        justify-content: center;
+        gap: 0.9rem;
+        width: 8%;
+        text-align: center;
+        border-radius: 50%;
+        border: 1px dashed var(--cor0);
+        font-size: 1.1rem;
+        font-weight: 400;
+        padding: 1.2rem 0;
+        text-decoration: none;
+        color: #f6f6f6;
+        font-family: "Montserrat", sans-serif;
     }
 } 
