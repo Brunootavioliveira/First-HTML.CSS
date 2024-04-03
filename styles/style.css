@@ -165,6 +165,7 @@ footer {
 
     .cabecalho_menu {
         justify-content: center; 
+        gap: 10%;
     }
 
     .cabecalho_link {
@@ -178,18 +179,20 @@ footer {
     }
 
     .apresentacao__titulo {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .paragrafo {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .apresentacao__conteudo {
         width: auto;
         padding: 5%;
     }
-
+    .apresentaçao_redes{
+        font-size: 1.5rem;
+    }
     .apresentacao__links {
         display: flex;
         flex-direction: row;
@@ -202,7 +205,7 @@ footer {
         display: flex;
         justify-content: center;
         gap: 0.9rem;
-        width: 8%;
+        width: 15%;
         text-align: center;
         border-radius: 50%;
         border: 1px dashed var(--cor0);

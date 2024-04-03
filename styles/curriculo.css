@@ -139,10 +139,11 @@ footer {
 
     .cabecalho_menu {
         justify-content: center; 
+        gap: 10%;
     }
     .cabecalho_link {
-        font-size: 0.8rem;
-        gap: 7%;
+        font-size: 1rem;
+        gap: 10%;
     }
     .apresentacao {
         flex-direction: column-reverse;
@@ -156,7 +157,7 @@ footer {
     .apresentacao__titulo {
         font-size: 2rem;
     }
-    
+
     .text_exp {
         font-size: 1rem;
     }
