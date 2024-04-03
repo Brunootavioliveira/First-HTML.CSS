@@ -146,6 +146,7 @@ footer {
     }
     .apresentacao__conteudo {
         width: auto;
+        padding: 15%;
     }
     .text_exp {
         font-size: 1rem;

@@ -41,6 +41,7 @@ body {
     padding: 6% 15%;
     display: flex;  
     justify-content: space-between;
+    align-items: center;
     margin-top: 0%
 }
 .apresentacao__conteudo {
@@ -134,11 +135,12 @@ footer {
     }
     .apresentacao__conteudo {
         width: auto;
+        padding: 15%;
     }
     .apresentacao__titulo {
         font-size: 2rem;
     }
     .paragrafo {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
-} 
+}
