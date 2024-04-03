@@ -31,7 +31,7 @@ body {
 
 .cabecalho_link {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color:  var(--cor0);
     text-decoration: none;
@@ -128,6 +128,10 @@ footer {
 
     .cabecalho_menu {
         justify-content: center; 
+    }
+    .cabecalho_link {
+        font-size: 0.8rem;
+        gap: 7%;
     }
     .apresentacao {
         flex-direction: column-reverse;

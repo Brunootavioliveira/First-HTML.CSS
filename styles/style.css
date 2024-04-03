@@ -76,10 +76,9 @@ body {
 
 .apresentacao__links {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
 }
 
 .redes_sociais {
@@ -87,9 +86,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 0.9rem;
-    width: 50%;
+    width: 12%;
     text-align: center;
-    border-radius: 1.9rem;
+    border-radius: 50%;
     border: 1px dashed var(--cor0);
     font-size: 1.1rem;
     font-weight: 400;
@@ -166,6 +165,10 @@ footer {
 
     .cabecalho_menu {
         justify-content: center; 
+    }
+    .cabecalho_link {
+        font-size: 0.8rem;
+        gap: 7%;
     }
     .apresentacao {
         flex-direction: column-reverse;

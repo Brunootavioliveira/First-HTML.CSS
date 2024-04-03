@@ -140,6 +140,10 @@ footer {
     .cabecalho_menu {
         justify-content: center; 
     }
+    .cabecalho_link {
+        font-size: 0.8rem;
+        gap: 7%;
+    }
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
