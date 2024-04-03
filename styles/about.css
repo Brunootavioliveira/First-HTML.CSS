@@ -62,7 +62,7 @@ body {
 }
 
 .imagem-figma {
-    width: 50%;
+    width: 40%;
 }
 
 body {
@@ -79,7 +79,7 @@ footer {
     background-color: #373b3b3b;
     color: #7a7a7a;
     padding: 1.5rem 0;
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -147,5 +147,8 @@ footer {
     }
     .paragrafo {
         font-size: 1rem;
+    }
+    footer {
+        position: relative;
     }
 }
