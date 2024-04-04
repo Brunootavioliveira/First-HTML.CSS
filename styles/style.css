@@ -218,6 +218,10 @@ footer {
         font-family: "Montserrat", sans-serif;
     }
 
+    .imagem-figma {
+        width: 19rem;
+    }
+
     footer {
         position: relative;
     }
