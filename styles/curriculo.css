@@ -2,9 +2,7 @@
 
 :root {
     --cor0: #22D4FD;
-} /*UMA VARIAVEL CSS
-para usar bas ta escrever "var"(nome da cor)
-ex:background-color: var(--cor0)*/ 
+}
 
 * {
     margin: 0;
@@ -12,7 +10,6 @@ ex:background-color: var(--cor0)*/
 }
 
 body {
-    /*height: 100vh;?*/	
     box-sizing: border-box;
     background-color: black;
     color: #F9F9F9;
@@ -20,8 +17,6 @@ body {
 .title-destaque {
     color: var(--cor0)
 }
-/*.imagem-eu {
-    border : solid 1px #0000cd*/
 
 .cabecalho {
     padding: 5% 0% 0% 15%
@@ -80,7 +75,8 @@ body {
 
 .imagem-figma {
     width: 40%;
-    margin-top: 0%;
+    border-radius: 10%;
+    display: flex;
 }
 
 .blue_text {
@@ -96,7 +92,7 @@ footer {
     left: 0;
     width: 100%;
     text-align: center;
-
+    font-family: "Montserrat", sans-serif;
 }
 
 .container {

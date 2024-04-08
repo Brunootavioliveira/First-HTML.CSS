@@ -10,15 +10,11 @@
 }
 
 body {
-    /*height: 100vh;?*/	
     box-sizing: border-box;
     background-color: black;
     color: #F9F9F9;
 }
 
-
-/*.imagem-eu {
-    border : solid 1px #0000cd*/
 
 .cabecalho {
     padding: 5% 0% 0% 15%
@@ -63,6 +59,7 @@ body {
 
 .imagem-figma {
     width: 40%;
+    border-radius: 10%;
 }
 
 body {
