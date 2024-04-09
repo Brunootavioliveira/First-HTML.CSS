@@ -83,7 +83,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 0.9rem;
-    width: 12%;
+    width: 75px;
     text-align: center;
     border-radius: 50%;
     border: 1px dashed var(--cor0);
@@ -156,7 +156,7 @@ footer {
     font-style: italic;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .cabecalho {
         padding: 10%
     }
@@ -199,7 +199,7 @@ footer {
     }
     
     .redes_sociais {
-        width: 20%;
+        width: 75px;
     }
 
     .imagem-figma {
@@ -208,5 +208,10 @@ footer {
 
     footer {
         position: relative;
+        
+    }
+
+    .left-content {
+        margin-right: 60px;
     }
 } 

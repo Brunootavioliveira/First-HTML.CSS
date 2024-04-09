@@ -52,6 +52,7 @@ body {
     gap: 6.5rem;
     align-items: left;
     margin-top: 3%;
+    margin-right: 60px;
 }
 
 .apresentacao__titulo {
@@ -129,7 +130,7 @@ footer {
     font-style: italic;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .cabecalho {
         padding: 10%
     }
@@ -164,5 +165,9 @@ footer {
 
     .imagem-figma {
         width: 19rem;
+    }
+
+    .left-content {
+        margin-right: 60px;
     }
 } 
