@@ -158,11 +158,11 @@ footer {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;    
-        margin-left: 80px;
     }
     .apresentacao__conteudo {
         width: auto;
         padding: 15%;
+        margin-left: 90px;
     }
     .apresentacao__titulo {
         font-size: 1.8rem;
