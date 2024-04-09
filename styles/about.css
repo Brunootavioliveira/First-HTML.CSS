@@ -58,9 +58,33 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+span {
+    color: #22D4FD;
+}
+
+.apresentacao_original {
+    padding: 5%;
+    font-family: 'krona one', serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
 .imagem-figma {
     width: 40%;
     border-radius: 10%;
+}
+
+.origem_tudo {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.imagem-origem {
+    width: 22rem;
+    flex-direction:row;
 }
 
 body {
