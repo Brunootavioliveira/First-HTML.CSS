@@ -83,7 +83,6 @@ span {
 
 .imagem-origem {
     width: 22rem;
-    flex-direction:row;
 }
 
 body {
@@ -162,7 +161,7 @@ footer {
     .apresentacao__conteudo {
         width: auto;
         padding: 15%;
-        margin-left: 90px;
+        margin-left: 40px;
         margin-right: 40px;
     }
     .apresentacao__titulo {
@@ -174,6 +173,10 @@ footer {
 
     .imagem-figma {
         width: 19rem;
+    }
+
+    .imagem-origem {
+        width: 15rem;
     }
 
     footer {
